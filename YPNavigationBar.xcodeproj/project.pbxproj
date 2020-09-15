@@ -15,7 +15,6 @@
 		8A07491024DAB8B300859DEE /* YPNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A07490F24DAB8B300859DEE /* YPNavigationBar.m */; };
 		8A07491324DAB8C600859DEE /* UIViewController+YPCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A07491224DAB8C600859DEE /* UIViewController+YPCategory.m */; };
 		8A07491724DACB2C00859DEE /* UIColor+YPCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A07491624DACB2C00859DEE /* UIColor+YPCategory.m */; };
-		8A07491924DB92E500859DEE /* YPNavigationBar.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8A07491824DB92E500859DEE /* YPNavigationBar.bundle */; };
 		8A07491F24DCE36400859DEE /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A07491E24DCE36400859DEE /* ViewController2.m */; };
 		8A135BD024DF6B4400357D3F /* ModelDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A135BCF24DF6B4400357D3F /* ModelDemo.m */; };
 		8A135C0B24DF7D2300357D3F /* MJPropertyType.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A135BF924DF7D2300357D3F /* MJPropertyType.m */; };
@@ -50,7 +49,6 @@
 		8A07491424DAB8ED00859DEE /* YPNavigationBarDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YPNavigationBarDefine.h; sourceTree = "<group>"; };
 		8A07491524DACB2C00859DEE /* UIColor+YPCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+YPCategory.h"; sourceTree = "<group>"; };
 		8A07491624DACB2C00859DEE /* UIColor+YPCategory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+YPCategory.m"; sourceTree = "<group>"; };
-		8A07491824DB92E500859DEE /* YPNavigationBar.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = YPNavigationBar.bundle; sourceTree = "<group>"; };
 		8A07491D24DCE36400859DEE /* ViewController2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController2.h; sourceTree = "<group>"; };
 		8A07491E24DCE36400859DEE /* ViewController2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController2.m; sourceTree = "<group>"; };
 		8A135BCE24DF6B4400357D3F /* ModelDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModelDemo.h; sourceTree = "<group>"; };
@@ -141,7 +139,6 @@
 				8A07491624DACB2C00859DEE /* UIColor+YPCategory.m */,
 				8A07491124DAB8C600859DEE /* UIViewController+YPCategory.h */,
 				8A07491224DAB8C600859DEE /* UIViewController+YPCategory.m */,
-				8A07491824DB92E500859DEE /* YPNavigationBar.bundle */,
 				8A07490E24DAB8B300859DEE /* YPNavigationBar.h */,
 				8A07490F24DAB8B300859DEE /* YPNavigationBar.m */,
 				8A07490B24DAB89400859DEE /* YPNavigationBarConfig.h */,
@@ -234,7 +231,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8A07491924DB92E500859DEE /* YPNavigationBar.bundle in Resources */,
 				8A0748F824DAB12500859DEE /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
