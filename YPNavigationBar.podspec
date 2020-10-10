@@ -7,6 +7,8 @@ Pod::Spec.new do |s|
   s.authors      = {'HYP' => '406468133@qq.com'}
   s.platform     = :ios, '9.0'
   s.source       = {:git => 'https://github.com/huyp/YPNavigationBar.git', :tag => s.version}
-  s.source_files = 'YPNavigationBar/*.{h,m}'
+  s.source_files = 'YPNavigationBar/**/*.{h,m}'
+  s.public_header_files = 'YPNavigationBar/**/*.{h}'
   s.resource     = 'YPNavigationBar/YPNavigationBar.bundle'
+
 end

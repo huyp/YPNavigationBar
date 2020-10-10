@@ -10,12 +10,10 @@
 		44356A0D2530A7D400A0BF34 /* UIImage+YPCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 443569F62530A7D400A0BF34 /* UIImage+YPCategory.m */; };
 		44356A0E2530A7D400A0BF34 /* YPNavigationBar.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 443569F82530A7D400A0BF34 /* YPNavigationBar.bundle */; };
 		44356A0F2530A7D400A0BF34 /* UIColor+YPCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 443569FB2530A7D400A0BF34 /* UIColor+YPCategory.m */; };
-		44356A102530A7D400A0BF34 /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 443569FC2530A7D400A0BF34 /* TableViewCell.m */; };
 		44356A112530A7D400A0BF34 /* YPNavigationConfigure.m in Sources */ = {isa = PBXBuildFile; fileRef = 44356A012530A7D400A0BF34 /* YPNavigationConfigure.m */; };
 		44356A122530A7D400A0BF34 /* YPCustomNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 44356A032530A7D400A0BF34 /* YPCustomNavigationBar.m */; };
 		44356A132530A7D400A0BF34 /* YPContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 44356A092530A7D400A0BF34 /* YPContainerView.m */; };
 		44356A142530A7D400A0BF34 /* UIViewController+YPNavgationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 44356A0C2530A7D400A0BF34 /* UIViewController+YPNavgationBar.m */; };
-		44356A252530A7E200A0BF34 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44356A172530A7E100A0BF34 /* ViewController.m */; };
 		44356A262530A7E200A0BF34 /* HideNavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44356A182530A7E100A0BF34 /* HideNavViewController.m */; };
 		44356A272530A7E200A0BF34 /* ScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44356A1A2530A7E100A0BF34 /* ScrollViewController.m */; };
 		44356A282530A7E200A0BF34 /* CustomNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44356A1D2530A7E100A0BF34 /* CustomNavigationController.m */; };
@@ -38,6 +36,7 @@
 		8A0748ED24DAB11000859DEE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A0748EC24DAB11000859DEE /* AppDelegate.m */; };
 		8A0748F824DAB12500859DEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A0748F724DAB12500859DEE /* Assets.xcassets */; };
 		8A0748FE24DAB12500859DEE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A0748FD24DAB12500859DEE /* main.m */; };
+		8AF5207225314BC300AC00A9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AF5207125314BC300AC00A9 /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,21 +45,18 @@
 		443569F82530A7D400A0BF34 /* YPNavigationBar.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = YPNavigationBar.bundle; sourceTree = "<group>"; };
 		443569FA2530A7D400A0BF34 /* UIColor+YPCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+YPCategory.h"; sourceTree = "<group>"; };
 		443569FB2530A7D400A0BF34 /* UIColor+YPCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+YPCategory.m"; sourceTree = "<group>"; };
-		443569FC2530A7D400A0BF34 /* TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
 		443569FE2530A7D400A0BF34 /* YPNavigationBarDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YPNavigationBarDefine.h; sourceTree = "<group>"; };
 		44356A002530A7D400A0BF34 /* YPNavigationConfigure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YPNavigationConfigure.h; sourceTree = "<group>"; };
 		44356A012530A7D400A0BF34 /* YPNavigationConfigure.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YPNavigationConfigure.m; sourceTree = "<group>"; };
 		44356A032530A7D400A0BF34 /* YPCustomNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YPCustomNavigationBar.m; sourceTree = "<group>"; };
 		44356A042530A7D400A0BF34 /* YPCustomNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YPCustomNavigationBar.h; sourceTree = "<group>"; };
 		44356A052530A7D400A0BF34 /* YPNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YPNavigationBar.h; sourceTree = "<group>"; };
-		44356A062530A7D400A0BF34 /* TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
 		44356A082530A7D400A0BF34 /* YPContainerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YPContainerView.h; sourceTree = "<group>"; };
 		44356A092530A7D400A0BF34 /* YPContainerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YPContainerView.m; sourceTree = "<group>"; };
 		44356A0B2530A7D400A0BF34 /* UIViewController+YPNavgationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+YPNavgationBar.h"; sourceTree = "<group>"; };
 		44356A0C2530A7D400A0BF34 /* UIViewController+YPNavgationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+YPNavgationBar.m"; sourceTree = "<group>"; };
 		44356A152530A7E100A0BF34 /* HideNavViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HideNavViewController.h; sourceTree = "<group>"; };
 		44356A162530A7E100A0BF34 /* CustomTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTabBarController.h; sourceTree = "<group>"; };
-		44356A172530A7E100A0BF34 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = "../../独立导航/YPAloneNavigationBar/导航手势冲突/导航手势冲突/ViewController.m"; sourceTree = "<group>"; };
 		44356A182530A7E100A0BF34 /* HideNavViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HideNavViewController.m; sourceTree = "<group>"; };
 		44356A192530A7E100A0BF34 /* YPNavViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YPNavViewController.h; sourceTree = "<group>"; };
 		44356A1A2530A7E100A0BF34 /* ScrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrollViewController.m; sourceTree = "<group>"; };
@@ -73,7 +69,6 @@
 		44356A212530A7E200A0BF34 /* YPNavViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YPNavViewController.m; sourceTree = "<group>"; };
 		44356A222530A7E200A0BF34 /* CustomTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTableView.h; sourceTree = "<group>"; };
 		44356A232530A7E200A0BF34 /* NativeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NativeViewController.m; sourceTree = "<group>"; };
-		44356A242530A7E200A0BF34 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = "../../独立导航/YPAloneNavigationBar/导航手势冲突/导航手势冲突/ViewController.h"; sourceTree = "<group>"; };
 		44356A2E2530A87200A0BF34 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		44356A302530A87200A0BF34 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
 		44356A312530A87200A0BF34 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
@@ -107,6 +102,8 @@
 		8A0748F724DAB12500859DEE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8A0748FC24DAB12500859DEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8A0748FD24DAB12500859DEE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8AF5207025314BC300AC00A9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8AF5207125314BC300AC00A9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,12 +123,10 @@
 				443569F52530A7D400A0BF34 /* UIImage */,
 				443569F82530A7D400A0BF34 /* YPNavigationBar.bundle */,
 				443569F92530A7D400A0BF34 /* UIColor */,
-				443569FC2530A7D400A0BF34 /* TableViewCell.m */,
 				443569FD2530A7D400A0BF34 /* Define */,
 				443569FF2530A7D400A0BF34 /* Configure */,
 				44356A022530A7D400A0BF34 /* NavigationBar */,
 				44356A052530A7D400A0BF34 /* YPNavigationBar.h */,
-				44356A062530A7D400A0BF34 /* TableViewCell.h */,
 				44356A072530A7D400A0BF34 /* View */,
 				44356A0A2530A7D400A0BF34 /* ViewController */,
 			);
@@ -280,10 +275,10 @@
 				44356A232530A7E200A0BF34 /* NativeViewController.m */,
 				44356A1F2530A7E200A0BF34 /* ScrollViewController.h */,
 				44356A1A2530A7E100A0BF34 /* ScrollViewController.m */,
-				44356A242530A7E200A0BF34 /* ViewController.h */,
-				44356A172530A7E100A0BF34 /* ViewController.m */,
 				44356A192530A7E100A0BF34 /* YPNavViewController.h */,
 				44356A212530A7E200A0BF34 /* YPNavViewController.m */,
+				8AF5207025314BC300AC00A9 /* ViewController.h */,
+				8AF5207125314BC300AC00A9 /* ViewController.m */,
 			);
 			path = YPNavigationBar;
 			sourceTree = "<group>";
@@ -363,12 +358,11 @@
 				44356A282530A7E200A0BF34 /* CustomNavigationController.m in Sources */,
 				44356A112530A7D400A0BF34 /* YPNavigationConfigure.m in Sources */,
 				44356A4D2530A87200A0BF34 /* MASCompositeConstraint.m in Sources */,
-				44356A102530A7D400A0BF34 /* TableViewCell.m in Sources */,
 				44356A122530A7D400A0BF34 /* YPCustomNavigationBar.m in Sources */,
 				8A0748ED24DAB11000859DEE /* AppDelegate.m in Sources */,
 				44356A2B2530A7E200A0BF34 /* YPNavViewController.m in Sources */,
+				8AF5207225314BC300AC00A9 /* ViewController.m in Sources */,
 				44356A522530A87300A0BF34 /* MASConstraint.m in Sources */,
-				44356A252530A7E200A0BF34 /* ViewController.m in Sources */,
 				44356A0D2530A7D400A0BF34 /* UIImage+YPCategory.m in Sources */,
 				44356A4C2530A87200A0BF34 /* ViewController+MASAdditions.m in Sources */,
 				44356A532530A87300A0BF34 /* MASViewConstraint.m in Sources */,
