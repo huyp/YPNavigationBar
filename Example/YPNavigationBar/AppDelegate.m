@@ -33,6 +33,8 @@
     self.window.rootViewController = self.tabBar;
     [self.window makeKeyAndVisible];
     
+    NSLog(@"NSSearchPathForDirectoriesInDomains:%@",NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES));
+    
     return YES;
 }
 

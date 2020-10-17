@@ -1,0 +1,16 @@
+PODS:
+  - YPNavigationBar (0.1)
+
+DEPENDENCIES:
+  - YPNavigationBar
+
+SPEC REPOS:
+  trunk:
+    - YPNavigationBar
+
+SPEC CHECKSUMS:
+  YPNavigationBar: 4a204244f2840748fc2c4b860e3f07ac6263f79d
+
+PODFILE CHECKSUM: c73018229c64c5bf875c56a6e7fa7a0f67eed5e8
+
+COCOAPODS: 1.9.3

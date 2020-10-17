@@ -1,0 +1,6 @@
+framework module YPNavigationBar {
+  umbrella header "YPNavigationBar-umbrella.h"
+
+  export *
+  module * { export * }
+}
