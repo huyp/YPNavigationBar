@@ -34,7 +34,7 @@
     self.titleFont = [UIFont systemFontOfSize:17.0 weight:UIFontWeightSemibold];
     self.titleColor = [UIColor yp_dynamicColorWithAnyModel:[UIColor yp_hexColorWithHexString:@"000000" alpha:1.0] darkModel:[UIColor yp_hexColorWithHexString:@"ffffff" alpha:1.0]];
     NSString * imgPath = @"YPNavigationBar.bundle/btn_back.png";
-    UIImage * leftImage = [UIImage imageNamed:imgPath];
+    UIImage * leftImage = [UIImage imageNamed:imgPath inBundle:[NSBundle bundleForClass:self.class] compatibleWithTraitCollection:nil];
     self.leftImage = [leftImage imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
 }
 

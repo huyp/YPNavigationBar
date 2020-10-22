@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = 'YPNavigationBar'
-  s.version      = '0.1'
+  s.version      = '0.1.1'
   s.summary      = 'Independent navigation'
   s.homepage     = 'https://github.com/huyp/YPNavigationBar'
   s.license      = 'MIT'
@@ -10,5 +10,7 @@ Pod::Spec.new do |s|
   s.source_files = 'YPNavigationBar/**/*.{h,m}'
   s.public_header_files = 'YPNavigationBar/**/*.{h}'
   s.resource     = 'YPNavigationBar/YPNavigationBar.bundle'
+  #s.ios.resource_bundle = { 'YPNavigationBar' => 'YPNavigationBar/YPNavigationBar.bundle/*' }
+
 
 end

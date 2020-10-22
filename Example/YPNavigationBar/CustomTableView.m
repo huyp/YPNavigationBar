@@ -95,10 +95,10 @@
             }
             break;
         case 8:
-        if (self.navigationController.visibleViewController.isCustomBarInit) {
-            self.navigationController.visibleViewController.yp_navigationBar.lineColor = [UIColor blueColor];
-        }
-        break;
+            if (self.navigationController.visibleViewController.isCustomBarInit) {
+                self.navigationController.visibleViewController.yp_navigationBar.lineColor = [UIColor blueColor];
+            }
+            break;
         default:
             break;
     }
