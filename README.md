@@ -40,6 +40,14 @@ make.edges.equalTo(self.yp_containerView);
 }];
 ```
 
+## 安装方法
+
+推荐使用cocoapods
+
+```
+pod 'YPNavigationBar'
+```
+
 ## 特别说明
 
 1. 当开发者使用 yp_navigationBar or  yp_navigationItem属性后,这个controller将自动使用本组件.不使用则对controller没有影响.
