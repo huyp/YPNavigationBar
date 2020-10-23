@@ -10,6 +10,7 @@
 #import "CustomNavigationController.h"
 #import "CustomTabBarController.h"
 #import "ViewController.h"
+#import "YPNavigationBar.h"
 
 @interface AppDelegate ()
 
@@ -24,6 +25,9 @@
     // Override point for customization after application launch.
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     self.window.backgroundColor = [UIColor whiteColor];
+    
+    // 导航默认值的设置
+    [YPNavigationConfigure sharedInstance].titleColor = [UIColor purpleColor];
     
     CustomNavigationController * nav = [[CustomNavigationController alloc] initWithRootViewController:[ViewController new]];
     

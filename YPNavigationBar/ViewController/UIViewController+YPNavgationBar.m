@@ -10,6 +10,10 @@
 #import "YPNavigationConfigure.h"
 #import "UIImage+YPCategory.h"
 
+@interface UIViewController (YPNavgationBar)
+
+@end
+
 @implementation UIViewController (YPNavgationBar)
 
 + (void)load {
@@ -234,16 +238,6 @@ static char kAssociatedObjectKey_virtualView;
     if ([object isKindOfClass:[UINavigationBar class]] && [keyPath isEqualToString:@"hidden"]) {
         [self updateContainerViewFrame];
     }
-}
-
-#pragma mark - 截图
-- (UIImage *)imageFromView:(UIView *) theView {
-    UIGraphicsBeginImageContextWithOptions(theView.frame.size, NO, 0.0);
-    CGContextRef context = UIGraphicsGetCurrentContext();
-    [theView.layer renderInContext:context];
-    UIImage *theImage = UIGraphicsGetImageFromCurrentImageContext();
-    UIGraphicsEndImageContext();
-    return theImage;
 }
 
 @end

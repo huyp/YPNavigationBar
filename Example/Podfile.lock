@@ -1,3 +1,16 @@
-PODFILE CHECKSUM: 8bc86ea8473f941b3fe205422e6162b9fee8ae3d
+PODS:
+  - YPNavigationBar (0.1.3)
+
+DEPENDENCIES:
+  - YPNavigationBar (from `../`)
+
+EXTERNAL SOURCES:
+  YPNavigationBar:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  YPNavigationBar: 853d2bc09fe98799c8156b6f8cd4025d5b6a7133
+
+PODFILE CHECKSUM: 583e6ad63c818eccefaa175ca46e2689db927aeb
 
 COCOAPODS: 1.9.3

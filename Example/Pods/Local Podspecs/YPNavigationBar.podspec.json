@@ -1,6 +1,6 @@
 {
   "name": "YPNavigationBar",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "summary": "Independent navigation",
   "homepage": "https://github.com/huyp/YPNavigationBar",
   "license": "MIT",
@@ -12,7 +12,7 @@
   },
   "source": {
     "git": "https://github.com/huyp/YPNavigationBar.git",
-    "tag": "0.1.2"
+    "tag": "0.1.3"
   },
   "source_files": "YPNavigationBar/**/*.{h,m}",
   "public_header_files": "YPNavigationBar/**/*.{h}",
