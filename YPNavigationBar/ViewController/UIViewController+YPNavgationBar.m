@@ -8,6 +8,7 @@
 #import "UIViewController+YPNavgationBar.h"
 #import "UIColor+YPCategory.h"
 #import "YPNavigationConfigure.h"
+#import "UIImage+YPCategory.h"
 
 @implementation UIViewController (YPNavgationBar)
 
@@ -191,7 +192,7 @@ static char kAssociatedObjectKey_virtualNavigationBar;
     if (!virtualNavigationBar) {
         for (__kindof UIView * _Nonnull obj in self.navigationController.navigationBar.subviews) {
             if ([obj isKindOfClass:NSClassFromString(@"_UINavigationBarContentView")]) {
-                UIImage * image = [self imageFromView:obj];
+                UIImage * image = [UIImage imageFromView:obj];
                 UIImageView * imageView = [[UIImageView alloc] initWithImage:image];
                 imageView.contentMode = UIViewContentModeScaleAspectFit;
                 imageView.frame = CGRectMake(0, YP_STATUSBAR_HEIGHT, YP_SCREEN_WIDTH, YP_NAVBAR_HEIGHT);
@@ -220,7 +221,7 @@ static char kAssociatedObjectKey_virtualView;
 - (UIView *)virtualView {
     UIView * virtualView = objc_getAssociatedObject(self, &kAssociatedObjectKey_virtualView);
     if (!virtualView) {
-        UIImage * image = [self imageFromView:self.view];
+        UIImage * image = [UIImage imageFromView:self.view];
         virtualView = [[UIImageView alloc] initWithImage:image];
         virtualView.frame = self.view.bounds;
         self.virtualView = virtualView;
@@ -235,7 +236,7 @@ static char kAssociatedObjectKey_virtualView;
     }
 }
 
-#pragma mark - 为原生导航截图
+#pragma mark - 截图
 - (UIImage *)imageFromView:(UIView *) theView {
     UIGraphicsBeginImageContextWithOptions(theView.frame.size, NO, 0.0);
     CGContextRef context = UIGraphicsGetCurrentContext();

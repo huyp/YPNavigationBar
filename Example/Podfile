@@ -6,6 +6,6 @@ target 'YPNavigationBar' do
   use_frameworks!
 
   # Pods for YPNavigationBar
-  pod 'YPNavigationBar', :path => '../'
-
+  pod 'YPNavigationBar'
+  
 end

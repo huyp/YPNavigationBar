@@ -10,11 +10,14 @@
 
 @implementation UIImage (YPCategory)
 
-+ (UIImage *)imageName:(NSString *)name ofBundle:(NSString *)bundleName {
-    NSString *resourcePath = [[NSBundle mainBundle] resourcePath];
-    NSString *bundlePath = [resourcePath stringByAppendingPathComponent:bundleName];
-    NSString *image_path = [bundlePath stringByAppendingPathComponent:name];;
-    return [[UIImage alloc] initWithContentsOfFile:image_path];
+#pragma mark - 截图
++ (UIImage *)imageFromView:(UIView *)theView {
+    UIGraphicsBeginImageContextWithOptions(theView.frame.size, NO, 0.0);
+    CGContextRef context = UIGraphicsGetCurrentContext();
+    [theView.layer renderInContext:context];
+    UIImage *theImage = UIGraphicsGetImageFromCurrentImageContext();
+    UIGraphicsEndImageContext();
+    return theImage;
 }
 
 @end

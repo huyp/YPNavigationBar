@@ -11,10 +11,9 @@
 @interface UIImage (YPCategory)
 
 /**
- 加载bundle中的图片
- @param name image名称
- @param bundleName bundle名称
+ 将传入的View截图,返回Image
+ @param theView 传入的view
  */
-+ (UIImage *)imageName:(NSString *)name ofBundle:(NSString *)bundleName;
++ (UIImage *)imageFromView:(UIView *)theView;
 
 @end
